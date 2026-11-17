@@ -1,0 +1,33 @@
+# Project progression
+project_progression_private.md
+
+# Test notes
+src/tests_notes_private.ipynb
+
+# VS Code machine-specific settings
+.vscode/
+
+# Python and notebook artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pgpass
+
+# Local database files and exports
+*.db
+*.sqlite
+*.dump
+*.backup
+Data/processed/
+
+# Keep only the small reproducible raw-data example
+Data/raw/*
+!Data/raw/one_query_from_web.json
